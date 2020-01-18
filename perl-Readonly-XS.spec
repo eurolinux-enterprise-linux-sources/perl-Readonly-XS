@@ -1,6 +1,6 @@
 Name:		perl-Readonly-XS
 Version:	1.05
-Release:	13%{?dist}
+Release:	15%{?dist}
 Summary:	Companion module for Readonly
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -73,6 +73,12 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Readonly::XS.3pm*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.05-15
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.05-14
+- Mass rebuild 2013-12-27
+
 * Thu Aug 16 2012 Petr Pisar <ppisar@redhat.com> - 1.05-13
 - Specify all dependencies
 
